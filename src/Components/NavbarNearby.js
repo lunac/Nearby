@@ -2,14 +2,17 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import Logo from "../Assets/nearbyLogo.png";
 import Pin from "../Assets/pin.png";
 
 class NavbarNearby extends React.Component {
   render() {
+    var textStyle3 = {
+      left: '9%',
+      fontWeight : '700'
+
+    };
     return (
       <Navbar bg="light" variant="light">
         <Col>
@@ -22,7 +25,7 @@ class NavbarNearby extends React.Component {
           />
           {}
         </Col>
-        <Col>
+        <Col style = {textStyle3}>
           <img
             src={Pin}
             width="30"
@@ -33,7 +36,7 @@ class NavbarNearby extends React.Component {
         </Col>
         <Col>
           <Button variant="primary" size="sm" className="float-sm-right">
-          INGRESA
+            INGRESA
           </Button>
         </Col>
       </Navbar>
