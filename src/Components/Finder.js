@@ -6,14 +6,12 @@ import peopleEating from '../Assets/peopleEating.png'
 
 class Finder extends React.Component{
   render(){
-    return(
-        <div>
+    return (
+      <div>
+        <Image src={peopleEating}   fluid />
         
-     <Image  src= {peopleEating} fluid />
-     
-     </div>
-    
-    )
+      </div>
+    );
   }
 }
 export default Finder;

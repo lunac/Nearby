@@ -24,17 +24,16 @@ class NavbarNearby extends React.Component {
         </Col>
         <Col>
           <img
-            alt=""
             src={Pin}
             width="30"
             height="30"
-            className="d-inline-block align-top "
+            className="d-inline-block align-right "
           />
           {"Indica tu ubicación"}
         </Col>
         <Col>
           <Button variant="primary" size="sm" className="float-sm-right">
-            {""}INGRESA{""}{" "}
+          INGRESA
           </Button>
         </Col>
       </Navbar>
