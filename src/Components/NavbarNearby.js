@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import Logo from "../Assets/nearbyLogo.png";
 import Pin from "../Assets/pin.png";
 
+
 class NavbarNearby extends React.Component {
   render() {
     var textStyle3 = {
