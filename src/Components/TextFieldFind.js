@@ -9,10 +9,10 @@ import SearchIcon from "@material-ui/icons/Search";
 import DirectionsIcon from "@material-ui/icons/Directions";
 
 var styleL = {
-    position: "absolute",
-    top: "34%",
-    left: "32%",
-  };
+  position: "absolute",
+  top: "34%",
+  left: "32%"
+};
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -21,8 +21,6 @@ const useStyles = makeStyles(theme => ({
     alignItems: "center",
     width: 500,
     height: 37
-
-    
   },
   input: {
     marginLeft: theme.spacing(2),
@@ -42,22 +40,22 @@ export default function CustomizedInputBase() {
 
   return (
     <div style={styleL}>
-    <Paper component="form" className={classes.root}>
-      <InputBase
-        className={classes.input}
-        placeholder=""
-        inputProps={{ "aria-label": "search google maps" }}
-      />
+      <Paper component="form" className={classes.root}>
+        <InputBase
+          className={classes.input}
+          placeholder="¿Algún antojo en específico?"
+          inputProps={{ "aria-label": "search google maps" }}
+        />
 
-      <Divider className={classes.divider} orientation="vertical" />
-      <IconButton
-        type="submit"
-        className={classes.iconButton}
-        aria-label="search"
-      >
-        <SearchIcon />
-      </IconButton>
-    </Paper>
+        <Divider className={classes.divider} orientation="vertical" />
+        <IconButton
+          type="submit"
+          className={classes.iconButton}
+          aria-label="search"
+        >
+          <SearchIcon />
+        </IconButton>
+      </Paper>
     </div>
   );
 }
