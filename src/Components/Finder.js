@@ -24,7 +24,7 @@ class Finder extends React.Component {
         <Image src={peopleEating} fluid />
         <h3 style={textStyle}>Encuentra las mejores promociones {"\n"} en</h3>
         <h3 style={textStyle2}>restaurantes cerca de ti</h3>
-
+      
         <TextFieldFind />
       </div>
     );

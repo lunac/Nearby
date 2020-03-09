@@ -2,6 +2,7 @@ import React from 'react'
 import NavbarNearby from './Components/NavbarNearby';
 import Finder from './Components/Finder';
 import ScrollView from './Components/ScrollView';
+import Footer from "./Components/Footer";
 
 class App extends React.Component{
   render(){
@@ -10,6 +11,7 @@ class App extends React.Component{
         <NavbarNearby />
         <Finder />
         <ScrollView/>
+        <Footer/>
 
       </div>
     );
