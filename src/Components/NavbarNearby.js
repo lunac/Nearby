@@ -11,8 +11,7 @@ class NavbarNearby extends React.Component {
   render() {
     var textStyle3 = {
       left: '9%',
-      fontWeight : '700'
-
+      fontWeight : '700',
     };
     return (
       <Navbar bg="light" variant="light">
