@@ -13,18 +13,18 @@ class Footer extends React.Component {
       <div className="Footer">
         <Image src={backgroundFooter} fluid />
 
-        <h1 className="conocenos">Conócenos</h1>
-        <h3 className="descubrenos">Descubre</h3>
-        <h5 className="mejoresPromociones">
+        <h2 className="conocenos">Conócenos</h2>
+        <h4 className="descubrenos">Descubre</h4>
+        <h6 className="mejoresPromociones">
           Las mejores promociones en restaurantes cercanos.
-        </h5>
-        <h3 className="solicitanos">Solicita</h3>
-        <h5 className="unCupon">Un cupón de descuento y disfruta.</h5>
+        </h6>
+        <h4 className="solicitanos">Solicita</h4>
+        <h6 className="unCupon">Un cupón de descuento y disfruta.</h6>
 
         <img className="QRCode" alt="" width="70" height="80" src={QRCode} />
         <img className="Cutlerly" alt="" width="60" height="80" src={Cutlerly} />
-        <h3 className="muyPronto">Muy pronto en: </h3>
-        <img className="videoFooter" alt="" width="400" height="250" src={videoFooter} />
+        <h4 className="muyPronto">Muy pronto en: </h4>
+        <img className="videoFooter" alt="" width="270" height="170" src={videoFooter} />
         <img className="markets" alt="" width="340" height="55" src={markets} />
       </div>
     );
