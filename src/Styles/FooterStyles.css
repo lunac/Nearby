@@ -52,5 +52,29 @@ margin-top: -23%;
 .markets{
     margin-left: 46%;
     margin-top: -9%;
-
 }
+
+.lineHorizontal__container {
+    align-items: center;
+    display: flex;
+    height: 80px;
+  }
+  .lineHorizontal {
+    border-top: 1px solid rgb(30, 30, 30);
+    width: 100%;
+    margin-top: -10%;
+  }
+  .lineHorizontal2 {
+    border-top: 1px solid rgb(30, 30, 30);
+    width: 100%;
+    margin-top: -3%;
+  }
+  .contactanos{
+      font-weight: bold;
+      margin-top: -12%;
+      margin-left: 25%;
+  }
+  .number{
+      margin-top: -15%;
+      margin-left: 20%;
+  }

@@ -12,7 +12,6 @@ class Footer extends React.Component {
     return (
       <div className="Footer">
         <Image src={backgroundFooter} fluid />
-
         <h2 className="conocenos">Conócenos</h2>
         <h4 className="descubrenos">Descubre</h4>
         <h6 className="mejoresPromociones">
@@ -20,12 +19,33 @@ class Footer extends React.Component {
         </h6>
         <h4 className="solicitanos">Solicita</h4>
         <h6 className="unCupon">Un cupón de descuento y disfruta.</h6>
-
         <img className="QRCode" alt="" width="70" height="80" src={QRCode} />
-        <img className="Cutlerly" alt="" width="60" height="80" src={Cutlerly} />
+        <img
+          className="Cutlerly"
+          alt=""
+          width="60"
+          height="80"
+          src={Cutlerly}
+        />
         <h4 className="muyPronto">Muy pronto en: </h4>
-        <img className="videoFooter" alt="" width="270" height="170" src={videoFooter} />
-        <img className="markets" alt="" width="340" height="55" src={markets} />
+        <img
+          className="videoFooter"
+          alt=""
+          width="270"
+          height="170"
+          src={videoFooter}
+        />
+        <img className="markets" alt="" width="350" height="55" src={markets} />
+
+        <div className="lineHorizontal__container">
+          <div className="lineHorizontal"></div>
+        </div>
+        <div className="lineHorizontal__container">
+          <div className="lineHorizontal2"></div>
+        </div>
+
+        <h5 className="contactanos">Contáctanos</h5>
+        <h7 className="number">+57 300 2810932</h7>
       </div>
     );
   }
