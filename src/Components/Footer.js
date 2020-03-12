@@ -6,7 +6,10 @@ import videoFooter from "../Assets/videoFooter.png"
 import markets from "../Assets/markets.png"
 import Cutlerly from "../Assets/cutlerly.png";
 import "../Styles/FooterStyles.css";
-
+import twitterIcon from "../Assets/twitter.png"
+import facebookIcon from "../Assets/facebook.png"
+import instagramIcon from "../Assets/instagram.png"
+import Button from "react-bootstrap/Button";
 class Footer extends React.Component {
   render() {
     return (
@@ -46,6 +49,37 @@ class Footer extends React.Component {
 
         <h5 className="contactanos">Contáctanos</h5>
         <h7 className="number">+57 300 2810932</h7>
+        <img
+          className="facebookIcon"
+          alt=""
+          width="20"
+          height="20"
+          src={facebookIcon}
+        />
+        <img
+          className="twitterIcon"
+          alt=""
+          width="20"
+          height="20"
+          src={twitterIcon}
+        />
+        <img
+          className="instagramIcon"
+          alt=""
+          width="20"
+          height="20"
+          src={instagramIcon}
+        />
+        <h5 className="tienesHambre">¿Tienes hambre?</h5>
+        <Button className="buttonIngresa" variant="primary" size="sm">
+          INGRESA
+        </Button>
+        <h5 className="copyright">
+          ©2020 Copyright, All Rights Reserved by Nearby
+        </h5>
+        <h5 className="terminos">Terminos y condiciones</h5>
+        <h5 className="politicas">Politicas de privacidad</h5>
+        <h5 className="ayuda">Ayuda</h5>
       </div>
     );
   }

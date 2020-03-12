@@ -67,14 +67,64 @@ margin-top: -23%;
   .lineHorizontal2 {
     border-top: 1px solid rgb(30, 30, 30);
     width: 100%;
-    margin-top: -3%;
+    margin-top: -6%;
   }
   .contactanos{
       font-weight: bold;
       margin-top: -12%;
-      margin-left: 25%;
+      margin-left: 33%;
   }
   .number{
-      margin-top: -15%;
-      margin-left: 20%;
+      margin-top: 40%;
+      margin-left: 29%;
+      font-weight: lighter;
   }
+
+  .facebookIcon{
+      margin-left: 2%;
+
+  }
+.twitterIcon{
+    margin-left: 1%;
+
+}
+.instagramIcon{
+    margin-left: 1%;
+
+}
+.tienesHambre{
+    font-weight: bolder;
+    margin-left: 52%;
+    margin-top: -2%;
+}
+.buttonIngresa{
+margin-left: 65%;
+margin-top: -5%;
+}
+
+.copyright{
+font-weight: lighter;
+margin-top: 1%;
+margin-left: 10%;
+font-size: medium;
+}
+
+.terminos{
+font-weight: lighter;
+margin-top: -1.8%;
+margin-left: 40%;
+font-size: medium;
+}
+.politicas{
+font-weight: lighter;
+margin-top: -1.8%;
+margin-left: 54%;
+font-size: medium;
+}
+
+.ayuda{
+font-weight: lighter;
+margin-top: -1.8%;
+margin-left: 70%;
+font-size: medium;
+}
