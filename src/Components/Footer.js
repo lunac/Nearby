@@ -54,7 +54,7 @@ class Footer extends React.Component {
           alt=""
           width="20"
           height="20"
-          src={facebookIcon}
+          src={facebookIcon} fluid
         />
         <img
           className="twitterIcon"
@@ -77,9 +77,9 @@ class Footer extends React.Component {
         <h5 className="copyright">
           ©2020 Copyright, All Rights Reserved by Nearby
         </h5>
-        <h5 className="terminos">Terminos y condiciones</h5>
-        <h5 className="politicas">Politicas de privacidad</h5>
-        <h5 className="ayuda">Ayuda</h5>
+        <h3 className="terminos">Terminos y condiciones</h3>
+        <h3 className="politicas">Politicas de privacidad</h3>
+        <h3 className="ayuda">Ayuda</h3>
       </div>
     );
   }

@@ -5,14 +5,11 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Logo from "../Assets/nearbyLogo.png";
 import Pin from "../Assets/pin.png";
-
+import "../Styles/NavbarStyles.css";
 
 class NavbarNearby extends React.Component {
   render() {
-    var textStyle3 = {
-      left: '9%',
-      fontWeight : '700',
-    };
+  
     return (
       <Navbar bg="light" variant="light">
         <Col>
@@ -25,7 +22,7 @@ class NavbarNearby extends React.Component {
           />
           {}
         </Col>
-        <Col style = {textStyle3}>
+        <Col className ="textStyle3">
           <img
             src={Pin}
             width="30"
