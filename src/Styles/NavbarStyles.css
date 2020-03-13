@@ -2,3 +2,15 @@
     margin-left: 9%;
     font-weight: bold;
   }
+  @media screen and (max-width: 2560px){
+    .textStyle3{
+      margin-left: 12%;
+      font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 1199.98px){
+    .textStyle3{
+      margin-left: 11%;
+      font-weight: bold;
+    }
+  }

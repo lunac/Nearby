@@ -7,6 +7,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import DirectionsIcon from "@material-ui/icons/Directions";
+import "../Styles/textFieldFind.css"
 
 var styleL = {
   position: "absolute",
@@ -15,13 +16,6 @@ var styleL = {
 };
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    padding: "2px 4px",
-    display: "flex",
-    alignItems: "center",
-    width: 500,
-    height: 37
-  },
   input: {
     marginLeft: theme.spacing(2),
     flex: 1
@@ -39,8 +33,8 @@ export default function CustomizedInputBase() {
   const classes = useStyles();
 
   return (
-    <div style={styleL}>
-      <Paper component="form" className={classes.root}>
+    <div className ="textFieldFind">
+      <Paper component="form" className="root">
         <InputBase
           className={classes.input}
           placeholder="¿Algún antojo en específico?"

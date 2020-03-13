@@ -1,0 +1,28 @@
+
+
+@media screen and (max-width:2650px){
+    .textFieldFind{
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 40%;
+    }
+    .root{
+        padding-top: 1px;
+        padding-right: 3px;
+        margin-left:-39%;
+        display: flex;
+        align-items: center;
+        width: 200%;
+        height: 37px;  
+        
+    }
+  
+}
+
+@media screen and (max-width: 1199.98px){
+    .textFieldFind{
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 39%;
+    }
+  }

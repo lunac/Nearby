@@ -48,13 +48,13 @@ class Footer extends React.Component {
         </div>
 
         <h5 className="contactanos">Contáctanos</h5>
-        <h7 className="number">+57 300 2810932</h7>
+        <h5 className="number">+57 300 2810932</h5>
         <img
           className="facebookIcon"
           alt=""
           width="20"
           height="20"
-          src={facebookIcon} fluid
+          src={facebookIcon}
         />
         <img
           className="twitterIcon"
