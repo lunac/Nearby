@@ -1,4 +1,8 @@
 import React from "react";
+/**
+ * Estas importando bootstrap y material ui, esto es una super red-flag en front end.
+ * Materia-ui es bueno pero te pierdes el entender como funcioan los componentes. 
+ */
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import InputBase from "@material-ui/core/InputBase";
@@ -9,12 +13,25 @@ import SearchIcon from "@material-ui/icons/Search";
 import DirectionsIcon from "@material-ui/icons/Directions";
 import "../Styles/textFieldFind.css"
 
+/**
+ * RF:
+ * NOOO!!!!
+ * Jamas de los jamases uses css dentro del javascript 
+ */
 var styleL = {
   position: "absolute",
   top: "34%",
   left: "32%"
 };
 
+
+/**
+ * RF:
+ * NOOO!!!!
+ * Igual, la razon es que al usar estilo con js, lo que haces es
+ * crear multiples puntos de css. Haciendo que el browser deba hacer
+ * un repaint.
+ */
 const useStyles = makeStyles(theme => ({
   input: {
     marginLeft: theme.spacing(2),

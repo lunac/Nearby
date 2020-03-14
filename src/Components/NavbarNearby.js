@@ -1,8 +1,30 @@
+/**
+ * En ES6 modulos, puedes importar solo el modulo que te sirve 
+ * en este caso por ejemplo puedes hacer extends Component directamente
+ */
 import React, { Component } from "react";
+/**
+ * bootstrap no se usa en componentes, aqui te estas importanto todo bootstrap 
+ * en un solo componente, deberias meterlo en App.js
+ */
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
+
+// no hagas asi 
+
+// import { Navbar } from "react-bootstrap";
+// import Button from "react-bootstrap/Button";
+// import Col from "react-bootstrap/Col";
+
+import { Navbar, Button, Col} from "react-bootstrap";
+
+/**
+ * Las imagines no te sirven como import, te sirve solo el string
+ * te consejo hacer una funcion para generalizar el como
+ * 
+    imagePath: (path) => {
+      return `/images/${path}`
+    }
+*/
 import Logo from "../Assets/nearbyLogo.png";
 import Pin from "../Assets/pin.png";
 import "../Styles/NavbarStyles.css";
@@ -40,4 +62,12 @@ class NavbarNearby extends React.Component {
     );
   }
 }
+
+/**
+ * - Tus imagines no deben tener width o height no funciona en html 5
+ * - Una imagen debe siempre tener un alt
+ * - Piensa en haber consistencia, no uses react-bootstrap de un lado y el 
+ * tag img del otro. 
+ * - Piensa en responsive images con el tag picture.
+ */
 export default NavbarNearby;
