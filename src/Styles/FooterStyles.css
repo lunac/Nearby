@@ -137,6 +137,7 @@
 }
 
 @media screen and (max-width:1199.98px){
+
     .QRCode{
         margin-left: 9%;
         margin-top: -20%;
@@ -149,6 +150,7 @@
     .muyPronto{
         color: #22264b;
         font-weight: bold;
+        
         margin-top: -3%;
         margin-left: 36%;
     }
@@ -158,7 +160,7 @@
     }
     .markets{
         margin-left: 46%;
-        margin-top: -12%;
+        margin-top: -10%;
     }
     
     .lineHorizontal__container {
@@ -169,16 +171,16 @@
       .lineHorizontal {
         border-top: 1px solid rgb(30, 30, 30);
         width: 100%;
-        margin-top: -10%;
+        margin-top: -13%;
       }
       .lineHorizontal2 {
         border-top: 1px solid rgb(30, 30, 30);
         width: 100%;
-        margin-top: -7%;
+        margin-top: -10%;
       }
       .contactanos{
           font-weight: bold;
-          margin-top: -12%;
+          margin-top: -15%;
           margin-left: 33%;
       }
       .number{
@@ -190,17 +192,17 @@
     
       .facebookIcon{
           margin-left: 40%;
-          margin-top: -4.5%;
+          margin-top: -5.5%;
     
       }
     .twitterIcon{
         margin-left: 1%;
-        margin-top: -4.5%;
+        margin-top: -5.5%;
     
     }
     .instagramIcon{
         margin-left: 1%;
-        margin-top: -4.5%;
+        margin-top: -5.5%;
     
     }
     .tienesHambre{
@@ -209,35 +211,341 @@
         margin-top: -4.5%;
     }
     .buttonIngresa{
-    margin-left: 65%;
-    margin-top: -5%;
+    margin-left: 68%;
+    margin-top: -6%;
     }
     
     .copyright{
     font-weight: lighter;
     margin-top: 1%;
-    margin-left: 15%;
+    margin-left: 13%;
     font-size: medium;
     }
     
     .terminos{
     font-weight: lighter;
-    margin-top: -1.8%;
-    margin-left: 40%;
+    margin-top: -2.3%;
+    margin-left: 42%;
     font-size: medium;
     }
     .politicas{
     font-weight: lighter;
-    margin-top: -1.8%;
-    margin-left: 54%;
+    margin-top: -2.2%;
+    margin-left: 57%;
     font-size: medium;
     }
     
     .ayuda{
     font-weight: lighter;
-    margin-top: -1.8%;
-    margin-left: 70%;
+    margin-top: -2.2%;
+    margin-left: 73%;
     font-size: medium;
     }
 
 }
+
+@media screen and (max-width:991.98px){
+    .conocenos{
+        color: #22264b;
+        margin-top: -20%;
+        margin-left: 43%;
+        font-weight: bold;
+        font-size: 25px;
+      }
+    
+    .descubrenos{
+        color: #22264b;;
+        font-weight: bold;
+        margin-top: 2%;
+        margin-left: 15%;
+        font-size: 20px;
+    }
+    
+    .mejoresPromociones {
+        color: #22264b;
+        margin-left: 15%;
+        font-weight: lighter;
+        font-size: 15px;
+       
+    }
+    
+    .solicitanos{
+        color: #22264b;
+        font-weight: bolder;
+        margin-top: 2%;
+        margin-left: 15%;
+        font-size: 20px;
+    }
+    .unCupon{
+        color: #22264b;
+        margin-left: 15%;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    .QRCode{
+        margin-left: 7%;
+        margin-top: -23%;
+    }
+    .Cutlerly{
+        margin-left:-7% ;
+        margin-top: -8%;
+    }
+
+    .muyPronto{
+        position: absolute;
+        color: #22264b;
+        font-weight: bold;
+        margin-top: -4%;
+        margin-left: 40%;
+        font-size: 18px;
+    }
+    .videoFooter{
+    margin-left: 68%;
+    margin-top: -28%;
+    height: 140px;
+    width: 200px;
+    }
+    .markets{
+        margin-left: 48%;
+        margin-top: -14%;
+        height: 50px;
+        width: 300px;
+    }
+    
+    .lineHorizontal__container {
+        align-items: center;
+        display: flex;
+        height: 80px;
+      }
+      .lineHorizontal {
+        border-top: 1px solid rgb(30, 30, 30);
+        width: 100%;
+        margin-top: -18%;
+      }
+      .lineHorizontal2 {
+        border-top: 1px solid rgb(30, 30, 30);
+        width: 100%;
+        margin-top: -12%;
+      }
+      .contactanos{
+          font-weight: bold;
+          margin-top: -18%;
+          margin-left: 28%;
+      }
+      .number{
+          margin-top: 0%;
+          margin-left: 25%;
+          font-weight: lighter;
+          font-size: medium;
+      }
+    
+      .facebookIcon{
+          margin-left: 40%;
+          margin-top: -6.5%;
+    
+      }
+    .twitterIcon{
+        margin-left: 1%;
+        margin-top: -6.5%;
+    
+    }
+    .instagramIcon{
+        margin-left: 1%;
+        margin-top: -6.5%;
+    
+    }
+    .tienesHambre{
+        font-weight: bolder;
+        margin-left: 52%;
+        margin-top: -6%;
+    }
+    .buttonIngresa{
+    margin-left: 71%;
+    margin-top: -7%;
+    }
+    
+    .copyright{
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: medium;
+    }
+    
+    .terminos{
+    font-weight: lighter;
+    margin-top: -2.6%;
+    margin-left: 45%;
+    font-size: medium;
+    }
+    .politicas{
+    font-weight: lighter;
+    margin-top: -2.7%;
+    margin-left: 62%;
+    font-size: medium;
+    }
+    
+    .ayuda{
+    font-weight: lighter;
+    margin-top: -2.7%;
+    margin-left: 79%;
+    font-size: medium;
+    }
+    
+}
+
+@media screen and (max-width: 767.98px){
+    .conocenos{
+        color: #22264b;
+        margin-top: -20%;
+        margin-left: 43%;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    
+    .descubrenos{
+        color: #22264b;;
+        font-weight: bold;
+        margin-top: 1%;
+        margin-left: 15%;
+        font-size: 18px;
+    }
+    
+    .mejoresPromociones {
+        color: #22264b;
+        margin-top: -6px;
+        margin-left: 15%;
+        font-weight: lighter;
+        font-size: 15px;
+       
+    }
+    
+    .solicitanos{
+        color: #22264b;
+        font-weight: bolder;
+        margin-top: 2%;
+        margin-left: 15%;
+        font-size: 18px;
+    }
+    .unCupon{
+        color: #22264b;
+        margin-left: 15%;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: -6px;
+    }
+    .QRCode{
+        margin-left: 8%;
+        margin-top: -25%;
+        height: 50px;
+        width: 50px;
+    }
+    .Cutlerly{
+        margin-left:-7% ;
+        margin-top: -10%;
+        height: 70px;
+        width: 50px;
+    }
+
+    .muyPronto{
+        position: absolute;
+        color: #22264b;
+        font-weight: bold;
+        margin-top: -5%;
+        margin-left: 60%;
+        font-size: 18px;
+    }
+    .videoFooter{
+    margin-left: 70%;
+    margin-top: -28%;
+    height: 100px;
+    width: 160px;
+    }
+    .markets{
+        margin-left: 72%;
+        margin-top: -17%;
+        height: 40px;
+        width: 250px;
+    }
+    
+    .lineHorizontal__container {
+        align-items: center;
+        display: flex;
+        height: 80px;
+      }
+      .lineHorizontal {
+        border-top: 1px solid rgb(30, 30, 30);
+        width: 100%;
+        margin-top: -25%;
+      }
+      .lineHorizontal2 {
+        border-top: 1px solid rgb(30, 30, 30);
+        width: 100%;
+        margin-top: -17%;
+      }
+      .contactanos{
+          font-weight: bold;
+          margin-top: -25%;
+          margin-left: 28%;
+      }
+      .number{
+          margin-top: 0%;
+          margin-left: 20%;
+          font-weight: lighter;
+          font-size: medium;
+      }
+    
+      .facebookIcon{
+          margin-left: 37%;
+          margin-top: -8%;
+    
+      }
+    .twitterIcon{
+        margin-left: 1%;
+        margin-top: -8%;
+    
+    }
+    .instagramIcon{
+        margin-left: 1%;
+        margin-top: -8%;
+    
+    }
+    .tienesHambre{
+        font-weight: bolder;
+        margin-left: 52%;
+        margin-top: -8%;
+    }
+    .buttonIngresa{
+    margin-left: 75%;
+    margin-top: -9%;
+    }
+    
+    .copyright{
+    font-weight: lighter;
+    margin-top: 3%;
+    margin-left: 6%;
+    font-size: small;
+    }
+    
+    .terminos{
+    font-weight: lighter;
+    margin-top: -3%;
+    margin-left: 44%;
+    font-size: small;
+    }
+    .politicas{
+    font-weight: lighter;
+    margin-top: -3%;
+    margin-left: 62%;
+    font-size: small;
+    }
+    
+    .ayuda{
+    font-weight: lighter;
+    margin-top: -3%;
+    margin-left: 79%;
+    font-size: small;
+    }
+
+}
+
+@media screen and (max-width: 575.98px)
